@@ -1,4 +1,5 @@
 public class Account {
+    private static final int YEAR = 2020;
 
     // Незмінні
     private String name;
@@ -89,7 +90,7 @@ public class Account {
         this.weight = weight;
         this.pressure = pressure;
         this.steps = steps;
-        this.age = 2020 - getdOBYear();
+        this.age = YEAR - getdOBYear();
     }
 
     private int age = this.age;
