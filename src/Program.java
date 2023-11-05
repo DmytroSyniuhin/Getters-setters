@@ -14,7 +14,6 @@ public class Program {
         messi.printAccountInfo();
 
         System.out.println();
-
         System.out.println();
 
         System.out.println("Користувач № 2:");
@@ -31,7 +30,6 @@ public class Program {
         lebron.printAccountInfo();
 
         System.out.println();
-
         System.out.println();
 
         System.out.println("Користувач № 3:");
