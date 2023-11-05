@@ -38,13 +38,5 @@ public class Program {
         Account serena = new Account("Серена", 26, 9, 1981, "champofwimbledon@gmail.com", "+19803342032", "Вільямс", 72.0, 118, 10000);
 
         serena.printAccountInfo();
-
-        serena.setSurname("Вільямс-Оганян");
-        serena.setPressure(120);
-
-        System.out.println();
-        System.out.println("Зі змінами прізвища та тиску:");
-
-        serena.printAccountInfo();
     }
 }
